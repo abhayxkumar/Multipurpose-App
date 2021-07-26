@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicPlayer"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="25dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="300px"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="95dp"
+        android:fontFamily="Montserrat"
+        android:text="Music Player"
+        android:textAlignment="center"
+        android:textAppearance="@style/login"
+        android:textFontWeight="800"
+        android:textSize="85px" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="339dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/audio" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/video" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="339dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/logout2" />
+
+</RelativeLayout>

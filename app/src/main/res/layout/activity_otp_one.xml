@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otp_one"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="75dp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="157dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="300px"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="Montserrat"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textAppearance="@style/login"
+        android:textFontWeight="800"
+        android:textSize="85px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="257dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="78dp"
+        android:fontFamily="Montserrat"
+        android:text="@string/with_otp"
+        android:textAlignment="center"
+        android:textAppearance="@style/with_local_"
+        android:textFontWeight="500"
+        android:textSize="65px" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="329dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/edittext_box" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="187dp"
+        android:background="@android:color/transparent"
+        android:hint="Phone Number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="231dp"
+        android:background="@drawable/genotp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="602dp"
+        android:text="@string/you_are_new"
+        android:textColor="#F95A2C"
+        android:textFontWeight="600"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="300px"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="305dp"
+        android:fontFamily="Montserrat"
+        android:text="@string/enter_otp"
+        android:textAlignment="center"
+        android:textAppearance="@style/login"
+        android:textFontWeight="800"
+        android:textSize="85px" />
+
+    <View
+        android:id="@+id/user2"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/password" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="329dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/edittext_box" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="455dp"
+        android:background="@android:color/transparent"
+        android:hint="Enter OTP"
+        android:visibility="visible"
+        android:importantForAutofill="no"
+        android:inputType="phone"/>
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="509dp"
+        android:background="@drawable/signin" />
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_screen"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="75dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="300px"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="Montserrat"
+        android:text="Welcome to my App"
+        android:textAlignment="center"
+        android:textAppearance="@style/login"
+        android:textFontWeight="800"
+        android:textSize="85px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="313dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="100px"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="71dp"
+        android:fontFamily="Montserrat"
+        android:text="I hope you liked it! "
+        android:textAlignment="center"
+        android:textAppearance="@style/with_local_"
+        android:textFontWeight="500"
+        android:textSize="65px" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/basicservices" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/musicplayer" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/camera" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="362dp"
+        android:background="@drawable/otherfeatures" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/feedback" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="545dp"
+        android:background="@drawable/logout" />
+
+</RelativeLayout>

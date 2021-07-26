@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AK</string>
+    <string name="login">Login</string>
+    <string name="with_local_">with Local Database</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email ID</string>
+    <string name="or_sign_in_using">or sign in using...</string>
+    <string name="you_are_new">You are new? Register Now</string>
+    <string name="with_email_pass">with Email &amp; Password</string>
+    <string name="with_otp">with One Time Password</string>
+    <string name="enter_otp">Enter OTP for Verification</string>
+    <string name="already_account">Already have account? Go here</string>
+    <string name="please_write_feedback">Please write feedback...</string>
+    <string name="full_name">Full Name</string>
+</resources>
