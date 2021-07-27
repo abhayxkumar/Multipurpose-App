@@ -10,6 +10,6 @@
     <string name="with_otp">with One Time Password</string>
     <string name="enter_otp">Enter OTP for Verification</string>
     <string name="already_account">Already have account? Go here</string>
-    <string name="please_write_feedback">Please write feedback...</string>
+    <string name="please_write_feedback">Please write feedback</string>
     <string name="full_name">Full Name</string>
 </resources>

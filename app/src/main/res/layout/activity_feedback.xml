@@ -76,22 +76,22 @@
         android:background="@android:color/transparent"
         android:ems="10"
         android:hint="@string/full_name"
-        android:inputType="text"
-        android:visibility="visible" />
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="257dp"
+        android:layout_width="262dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="267dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="269dp"
         android:background="@android:color/transparent"
-        android:ems="10"
+        android:gravity="top"
         android:hint="@string/please_write_feedback"
-        android:inputType="text"
-        android:visibility="visible" />
+        android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+        android:maxLines="7"
+        android:minLines="6" />
 
     <ImageButton
         android:id="@+id/button"

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -42,9 +43,15 @@ public class Feedback extends AppCompatActivity {
                 UserHelperClass helperClass = new UserHelperClass(name, msg);
 
                 reference.child(name).setValue(helperClass);
+
+                Toast.makeText(Feedback.this, "Thanks for writing feedback!", Toast.LENGTH_SHORT).show();
+
+                Intent fa = new Intent(Feedback.this, FeedbackAfter.class);
+                startActivity(fa);
             }
         });
 
+        //Logout
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
