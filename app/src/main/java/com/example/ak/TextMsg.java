@@ -19,8 +19,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Objects;
-
 public class TextMsg extends AppCompatActivity {
     EditText e1,e2;
     ImageButton b1,b2;
