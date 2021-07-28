@@ -1,14 +1,12 @@
 package com.example.ak;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.firebase.auth.EmailAuthCredential;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Welcome_screen extends AppCompatActivity {
@@ -53,8 +51,8 @@ public class Welcome_screen extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent of = new Intent(Welcome_screen.this, OtherFeatures.class);
-                startActivity(of);
+                Intent cm = new Intent(Welcome_screen.this, CallMsg.class);
+                startActivity(cm);
             }
         });
 

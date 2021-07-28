@@ -1,8 +1,5 @@
 package com.example.ak;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,6 +8,9 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -23,7 +23,7 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
-public class Otp_one extends AppCompatActivity {
+public class Otp extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText edtPhone, edtOTP;
     private ImageButton verifyOTPBtn, generateOTPBtn;
@@ -33,7 +33,7 @@ public class Otp_one extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp_one);
+        setContentView(R.layout.activity_otp);
         t1 = findViewById(R.id.textView4);
 
         mAuth = FirebaseAuth.getInstance();
@@ -47,7 +47,7 @@ public class Otp_one extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (TextUtils.isEmpty(edtPhone.getText().toString())) {
-                    Toast.makeText(Otp_one.this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Otp.this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show();
                 } else {
                     String phone = "+91" + edtPhone.getText().toString();
                     sendVerificationCode(phone);
@@ -59,7 +59,7 @@ public class Otp_one extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (TextUtils.isEmpty(edtOTP.getText().toString())) {
-                    Toast.makeText(Otp_one.this, "Please enter OTP", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Otp.this, "Please enter OTP", Toast.LENGTH_SHORT).show();
                 } else {
                     verifyCode(edtOTP.getText().toString());
                 }
@@ -70,7 +70,7 @@ public class Otp_one extends AppCompatActivity {
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent register = new Intent(Otp_one.this, Local_database.class);
+                Intent register = new Intent(Otp.this, Local_database.class);
                 startActivity(register);
             }
         });
@@ -82,11 +82,11 @@ public class Otp_one extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Intent i = new Intent(Otp_one.this, Welcome_screen.class);
+                            Intent i = new Intent(Otp.this, Welcome_screen.class);
                             startActivity(i);
                             finish();
                         } else {
-                            Toast.makeText(Otp_one.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(Otp.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }
                 });
@@ -121,7 +121,7 @@ public class Otp_one extends AppCompatActivity {
         }
         @Override
         public void onVerificationFailed(FirebaseException e) {
-            Toast.makeText(Otp_one.this, e.getMessage(), Toast.LENGTH_LONG).show();
+            Toast.makeText(Otp.this, e.getMessage(), Toast.LENGTH_LONG).show();
         }
     };
 

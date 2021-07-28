@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AK</string>
+    <string name="app_name">Multipurpose App</string>
     <string name="login">Login</string>
     <string name="with_local_">with Local Database</string>
     <string name="password">Password</string>

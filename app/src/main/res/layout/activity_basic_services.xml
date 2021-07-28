@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,28 +32,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
-        android:layout_marginTop="142dp"
-        android:background="@drawable/msg" />
-
-    <ImageButton
-        android:id="@+id/button2"
-        android:layout_width="339dp"
-        android:layout_height="47dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="204dp"
-        android:background="@drawable/call" />
-
-    <ImageButton
-        android:id="@+id/button3"
-        android:layout_width="339dp"
-        android:layout_height="47dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="266dp"
-        android:background="@drawable/email2" />
+        android:layout_marginTop="199dp"
+        android:background="@drawable/tts" />
 
     <ImageButton
         android:id="@+id/button4"
@@ -62,8 +41,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="326dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="259dp"
         android:background="@drawable/browser" />
 
     <ImageButton
@@ -72,8 +51,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="385dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="321dp"
         android:background="@drawable/wifi" />
 
     <ImageButton
@@ -82,8 +61,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="441dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="381dp"
         android:background="@drawable/bluetooth" />
 
     <ImageButton
@@ -92,8 +71,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="504dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="445dp"
         android:background="@drawable/flash" />
 
     <ImageButton
@@ -102,8 +81,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="562dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="137dp"
         android:background="@drawable/calculator" />
 
     <ImageButton
@@ -112,8 +91,8 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="513dp"
         android:background="@drawable/logout2" />
 
 

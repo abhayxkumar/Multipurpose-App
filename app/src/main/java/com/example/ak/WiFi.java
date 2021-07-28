@@ -1,12 +1,12 @@
 package com.example.ak;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class WiFi extends AppCompatActivity {
     ImageButton b1;
