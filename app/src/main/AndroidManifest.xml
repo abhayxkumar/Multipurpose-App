@@ -24,8 +24,6 @@
         <activity android:name=".Quiz" />
         <activity android:name=".VideoCamera" />
         <activity android:name=".PhotoCamera" />
-        <activity android:name=".VideoPlayer" />
-        <activity android:name=".AudioPlayer" />
         <activity android:name=".Calculator" />
         <activity android:name=".FlashLight" />
         <activity android:name=".Bluetooth" />

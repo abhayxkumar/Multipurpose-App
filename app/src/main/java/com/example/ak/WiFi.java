@@ -18,7 +18,7 @@ public class WiFi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wi_fi);
         wm = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-        b1 = (ImageButton)findViewById(R.id.imageButton);
+        b1 = findViewById(R.id.imageButton);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

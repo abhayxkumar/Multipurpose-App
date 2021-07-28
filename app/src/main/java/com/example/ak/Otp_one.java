@@ -34,7 +34,7 @@ public class Otp_one extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otp_one);
-        TextView t1 = findViewById(R.id.textView4);
+        t1 = findViewById(R.id.textView4);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -103,7 +103,7 @@ public class Otp_one extends AppCompatActivity {
         PhoneAuthProvider.verifyPhoneNumber(options);
     }
 
-    private PhoneAuthProvider.OnVerificationStateChangedCallbacks
+    private final PhoneAuthProvider.OnVerificationStateChangedCallbacks
             mCallBack = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
         @Override
         public void onCodeSent(String s, PhoneAuthProvider.ForceResendingToken forceResendingToken) {

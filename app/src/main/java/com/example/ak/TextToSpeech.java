@@ -21,10 +21,10 @@ public class TextToSpeech extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_to_speech);
-        e1 = (EditText)findViewById(R.id.editText);
-        b1 = (ImageButton)findViewById(R.id.button);
-        b2 = (ImageButton)findViewById(R.id.button2);
-        b3 = (ImageButton)findViewById(R.id.button3);
+        e1 = findViewById(R.id.editText);
+        b1 = findViewById(R.id.button);
+        b2 = findViewById(R.id.button2);
+        b3 = findViewById(R.id.button3);
         tts = new android.speech.tts.TextToSpeech(this, new android.speech.tts.TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int i) {

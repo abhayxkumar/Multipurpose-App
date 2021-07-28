@@ -16,13 +16,13 @@ public class Bluetooth extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bluetooth);
-
-        ib = (ImageButton)findViewById(R.id.imageButton);
+        ib = findViewById(R.id.imageButton);
         ba = BluetoothAdapter.getDefaultAdapter();
+
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(bluetooth==false)
+                if(!bluetooth)
                 {
                     ba.enable();
                     bluetooth = true;
